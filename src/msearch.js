@@ -1,10 +1,12 @@
 (function($){
     $.fn.search = function(selector, field){
-        if (!selector) throw new Error('need a selector');
+        if (!selector) {
+            throw new Error('need a selector');
+        }
 
         field = field || 'data-search';
 
-        return this.each(function(idx, dom){
+        return this.each(function(){
             var styleWarp;
 
             styleWarp = $('<style class="styleWarp"></style>');
@@ -22,6 +24,6 @@
 
             return this;
         });
-    }
+    };
 })(jQuery);
 
