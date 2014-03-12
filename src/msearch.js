@@ -1,5 +1,5 @@
 (function($){
-    $.fn.search = function(selector, field){
+    $.fn.msearch = function(selector, field){
         if (!selector) {
             throw new Error('need a selector');
         }
