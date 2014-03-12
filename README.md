@@ -22,6 +22,6 @@ A simple jQuery plugin for search element using css `:not` selector.
     <div data-name="bob" class="search-item">Bob</div>
   </div>
   <script>
-    $('input.search1').search('#main-list1 .search-item', 'data-name');
+    $('input.search1').msearch('#main-list1 .search-item', 'data-name');
   </script>
 ```
