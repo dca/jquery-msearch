@@ -1,0 +1,22 @@
+{
+  "name": "jquery-msearch",
+  "version": "1.0.0",
+  "description": "A simple jQuery plugin for search element using css :not selector.",
+  "main": "src/msearch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dca/jquery-msearch.git"
+  },
+  "keywords": [
+    "search"
+  ],
+  "author": "Dca <dcahsu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dca/jquery-msearch/issues"
+  },
+  "homepage": "https://github.com/dca/jquery-msearch"
+}
