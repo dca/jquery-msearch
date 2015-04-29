@@ -1,6 +1,6 @@
 {
   "name": "jquery-msearch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple jQuery plugin for search element using css :not selector.",
   "main": "src/msearch.js",
   "authors": [
