@@ -25,3 +25,14 @@ A simple jQuery plugin for search element using css `:not` selector.
     $('input.search1').msearch('#main-list1 .search-item', 'data-name');
   </script>
 ```
+
+
+## Installation
+
+The fastest way to get started is use [bower](http://bower.io), it's as easy as:
+
+```sh
+bower install --save jquery-msearch
+```
+
+ 
